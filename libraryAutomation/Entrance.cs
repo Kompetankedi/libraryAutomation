@@ -117,10 +117,7 @@ namespace libraryAutomation
             list();
             CenterToScreen();
             tabControl1.Enabled = true;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button4.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button4.BackColor = Color.Transparent;
+
         }
 
         private void btnYupdatelist_Click(object sender, EventArgs e)
@@ -430,57 +427,5 @@ namespace libraryAutomation
             txtOdelivery.Text = bunifuDataGridView3.CurrentRow.Cells[6].Value.ToString();
             txtOClass.Text = bunifuDataGridView3.CurrentRow.Cells[7].Value.ToString();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.WindowState=FormWindowState.Minimized;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-        #region kaydırma işlemleri
-        private bool isDragging = false;
-        private Point mouseOffset;
-        private Point formPosition;
-        private void button4_MouseDown(object sender, MouseEventArgs e)
-        {
-            isDragging = true;
-            mouseOffset = e.Location;
-            formPosition = Location;
-        }
-
-        private void button4_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (isDragging && e.Button == MouseButtons.Left)
-            {
-                Point currentPosition = PointToScreen(e.Location);
-                Location = new Point(currentPosition.X - mouseOffset.X, currentPosition.Y - mouseOffset.Y);
-            }
-        }
-
-        private void Entrance_MouseDown(object sender, MouseEventArgs e)
-        {
-            isDragging = false;
-        }
-
-        private void Entrance_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (!isDragging)
-            {
-                Cursor = Cursors.Default;
-            }
-            else
-            {
-                Cursor = Cursors.SizeAll;
-            }
-        }
-
-        private void button4_MouseUp(object sender, MouseEventArgs e)
-        {
-            isDragging = false;
-        }
-        #endregion
     }
 }

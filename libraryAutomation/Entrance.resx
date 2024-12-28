@@ -225,12 +225,6 @@
         YHLA5IDJAZMDJgdMDpgcMDmwjX1eb4GP7PO6AeeLloTyYbdCAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="trRomanBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>189, 17</value>
-  </metadata>
-  <metadata name="dbKutuphaneDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="txtTBookAuthor.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAANwAAAAlCAYAAAApx4dQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -435,12 +429,6 @@
         YHLA5IDJAZMDJgdMDpgcMDmwjX1eb4GP7PO6AeeLloTyYbdCAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="dbKutuphaneDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="trRomanTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>366, 17</value>
-  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIABaIgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFv
